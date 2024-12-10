@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Тур-агентство</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+
+    <script src="js/review.js" defer></script>
+    <script src="js/slick.min.js" defer></script>
+    <script src="js/gallery.js" defer></script>
+    <script src="js/mobile_nav_bar.js" defer></script>
+    <script src="js/accordion.js" defer></script>
+    <script src="form.html" defer></script>
+    <script src="js/crutch.js" defer></script>
+    <script src="js/popup.js" defer></script>
+    <script src="js/animation.js" defer></script>
+
+    <link rel="stylesheet" href="css/project.css">
+    <link rel="stylesheet" href="css/slick2.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+</head>
+
+<body>
+    <div class="mobileNavBar_block">
+        <div class="accordion">
+            <h3><a href="tourist_support.html" title="Туристическая поддержка">ТУРИСТИЧЕСКАЯ ПОДДЕРЖКА</a></h3>
+            <h3 class="accordion">УСЛУГИ ТУР-АГЕНТСТВА ◿</h3>
+            <div class="dropdown-content-mobile">
+                <h5><a class="drop_a_1-m py-1" href="#">Экскурсии</a></h5>
+                <div>
+                    <h5><a class="drop_a_2-m py-1" href="#">Туры по миру</a></h5>
+                </div>
+                <h5><a class="drop_a_3-m py-1" href="#">Отели</a></h5>
+            </div>
+            <h3><a href="blog.html" title="Блог">БЛОГ</a></h3>
+            <h3><a href="seoPromotion.html" title="SEO promotion">SEO PROMOTION</a></h3>
+            <h3><a href="about.html" title="О нас">О НАС</a></h3>
+            <h3><a href="#customers" title="Клиенты">КЛИЕНТЫ</a></h3>
+            <h3><a href="#contacts" title="Контакты">КОНТАКТЫ</a></h3>
+        </div>
+        <div class="mobileNavBar_sidebar d-flex justify-content-between">
+            <div class="mobileNavBar_logo pt-2">
+                <div class="mobileNavBar_logo_wrapper">
+                    <img id="" src="img/travel-logo.svg" alt="travel-agency-logo" />
+                </div>
+            </div>
+            <div class="mobileNavBar_btn mb-1 px-2">≡</div>
+        </div>
+    </div>
+
+    <header>
+        <div class="header_block pb-5">
+            <div class="navBar_block container pt-5">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div class="logo">
+                        <img id="logo" src="img/logoza.ru.png" alt="travel-agency-logo" />
+                    </div>
+                    <div class="nav_bar p-2">
+                        <div class="d-flex justify-content-around px-2">
+                            <div class="px-2 flex-fill">
+                                <a href="tourist_support.html" title="Туристическая поддержка">ТУРИСТИЧЕСКАЯ ПОДДЕРЖКА</a>
+                            </div>
+                            <div class="dropdown_main px-2 flex-fill">
+                                <div class="dropdown">
+                                    <p class="m-0">УСЛУГИ ТУР-АГЕНТСТВА ◿</p>
+                                    <div class="dropdown-content">
+                                        <a class="drop_a_1" href="#">Экскурсии</a>
+                                        <a class="drop_a_2" href="#">Туры по миру</a>
+                                        <a class="drop_a_3" href="#">Отели</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="px-2 flex-fill">
+                                <a href="blog.html" title="Блог">БЛОГ</a>
+                            </div>
+                            <div class="px-2 flex-fill">
+                                <a href="seoPromotion.html" title="SEO promotion">SEO PROMOTION</a>
+                            </div>
+                            <div class="px-2 flex-fill">
+                                <a href="about.html" title="О нас">О НАС</a>
+                            </div>
+                            <div class="px-2 flex-fill">
+                                <a href="#customers" title="Клиенты">КЛИЕНТЫ</a>
+                            </div>
+                            <div class="px-2 flex-fill">
+                                <a href="#contacts" title="Контакты">КОНТАКТЫ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="otherHeader_block">
+                <video autoplay muted loop class="header_video w-100">
+                    <source src="img/видео.mp4" type="video/mp4">
+                </video>
+                
+                <div class="content container">
+                    <div class="d-flex flex-wrap pt-5">
+                        <div class="drupal_development col-md-6 col-6 py-4">
+                            <h1 class="m-0">Путешествия с нами</h1>
+                            <div class="m-1"> Организация туров по всему миру с 2005 года</div>
+                            <a href="#tariff" class="btn m-1">Наши тарифы</a>
+                        </div>
+                        <div class="achivments col-md-6 d-flex flex-column py-4">
+                            <div class="achivments_first_row d-flex">
+                                <div class="col-4 achivment_wrapper">
+                                    
+                                    <div class="achivment_description">
+                                        Лидер по организации туров в стране
+                                    </div>
+                                </div>
+                                <div class="col-4 achivment_wrapper">
+                                    <div class="achivment_title">
+                                        100+
+                                    </div>
+                                    <div class="achivment_description">
+                                        успешных туров за последний год
+                                    </div>
+                                </div>
+                                <div class="col-4 achivment_wrapper">
+                                    <div class="achivment_title">
+                                        5000+
+                                    </div>
+                                    <div class="achivment_description">
+                                        довольных клиентов по всему миру
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="achivments_second_row d-flex">
+                                <div class="col-4 achivment_wrapper">
+                                    <div class="achivment_title">
+                                        20
+                                    </div>
+                                    <div class="achivment_description">
+                                        стран, которые мы покрываем
+                                    </div>
+                                </div>
+                                <div class="col-4 achivment_wrapper">
+                                    <div class="achivment_title">
+                                        50
+                                    </div>
+                                    <div class="achivment_description">
+                                        партнеров по бронированию отелей
+                                    </div>
+                                </div>
+                                <div class="col-4 achivment_wrapper">
+                                    <div class="achivment_title">
+                                        200+
+                                    </div>
+                                    <div class="achivment_description">
+                                        экскурсий по популярным направлениям
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
+
+    <main>
+        <div class="Achievement mx-auto col-12 col-md-9 col-lg-8">
+            <div class="support m-auto d-flex flex-column flex-nowrap">
+                <div class="divSupport1 mx-2 d-flex flex-column ">
+                    <div>
+                        <h1 class="text-sup" style="font-weight: bold; color: black; width: auto">Делаем ваш отпуск 
+                            незабываемым!</h1>
+                    </div>
+                    <div>
+                        <h6 class="my-4">Создаем для вас самые лучшие путишествия!</h6>
+                    </div>
+                </div>
+                <div class="divSupport2 d-flex flex-wrap">
+                    <div class="support-services d-flex">
+                        <div class="element-line-support1 d-flex justify-content-between">
+                            <div class="element-support">
+                                <div class="image-support">
+                                    <img src="img/mini_photo/отель.webp" 
+                                    style="height: 100px; width: 150px" alt="Error">
+                                </div>
+                                <div>
+                                    <h6>Лучшие отели</h6>
+                                </div>
+                            </div>
+                            <div class="element-support">
+                                <div class="image-support">
+                                    <img src="img/mini_photo/b76d9fe8-4b08-5685-b370-edc312aac0d0.jfif" 
+                                    style="height: 100px; width: 150px" alt="Error">
+                                </div>
+                                <div>
+                                    <h6>Экскурсии</h6>
+                                </div>
+                            </div>
+                            <div class="element-support">
+                                <div class="image-support">
+                                    <img src="img/mini_photo/туризм.jpg" 
+                                    style="height: 100px; width: 150px" alt="Error">
+                                </div>
+                                <div>
+                                    <h6> Туризм</h6>
+                                </div>
+                            </div>
+                            <div class="element-support">
+                                <div class="image-support">
+                                    <img src="img/mini_photo/горнолыжный курорт.jpg" 
+                                    style="height: 100px; width: 150px" alt="Error">
+                                </div>
+                                <div>
+                                    <h6>
+                                        Горнолыжный курорт
+                                    </h6>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="element-line-support2 d-flex flex-nowrap justify-content-between">
+                            <div class="element-support">
+                                <div class="image-support">
+                                    <img src="img/mini_photo/дайвнг.jpeg"
+                                     style="height: 100px; width: 150px" alt="Error">
+                                </div>
+                                <div>
+                                    <h6>Дайвинг
+                                        <h4 style="color: white">.</h4>
+                                    </h6>
+                                </div>
+                            </div>
+                            <div class="element-support">
+                                <div class="image-support">
+                                    <img src="img/mini_photo/рыбалка.jpg" 
+                                    style="height: 100px; width: 150px" alt="Error">
+                                </div>
+                                <div>
+                                    <h6>Рыбалка</h6>
+                                </div>
+                            </div>
+                            <div class="element-support">
+                                <div class="image-support">
+                                    <img src="img/mini_photo/пляж.png"
+                                     style="height: 100px; width: 150px" alt="Error">
+                                </div>
+                                <div>
+                                    <h6>Самые лучшие пляжи</h6>
+                                    <h4 style="color: white">.</h4>
+                                </div>
+                            </div>
+                            <div class="element-support">
+                                <div class="image-support">
+                                    <img src="img/mini_photo/круиз.jpg"
+                                     style="height: 100px; width: 150px" alt="Error">
+                                </div>
+                                <div>
+                                    <h6>Морской круиз</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="help mx-auto d-flex flex-column flex-nowrap">
+                <div class="divHelp1 mx-auto d-flex flex-column">
+                    <div style="max-width: 500px; text-align: center; margin-bottom: 50px">
+                        <h1 style="font-weight: bold; font-size: 42px; color: black; margin-top: 175px">
+                            Почему стоит выбрать именно нас? <br> 
+                        </h1>
+                    </div>
+                </div>
+                <div class="row d-flex element-line-help">
+                    <div class="col-sm-6 col-md-3 col-xs-12 col-help">
+                        <div class="element-help">
+                            <div class="help-wrapper">
+                                <div class="help-header">
+                                    <div class="number">01.</div>
+                                    <div class="help-title">Проверенные и надежные партнеры</div>
+                                </div>
+                                <div class="text-help">
+                                    Мы работаем только с проверенными отелями, авиакомпаниями и транспортными 
+                                    компаниями.
+                                </div>
+                                <div class="img-help"><img src="галочка.png" style="height: 20px; width: 20px" class="img-responsive" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-xs-12 col-help">
+                        <div class="element-help">
+                            <div class="help-wrapper">
+                                <div class="help-header">
+                                    <div class="number">02.</div>
+                                    <div class="help-title">Индивидуальный подход</div>
+                                </div>
+                                <div class="text-help">
+                                    Мы учитываем все пожелания каждого клиента, 
+                                    чтобы подобрать оптимальный тур.
+                                </div>
+                                <div class="img-help"><img src="галочка.png" style="height: 20px; width: 20px" class="img-responsive" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-xs-12 col-help">
+                        <div class="element-help">
+                            <div class="help-wrapper">
+                                <div class="help-header">
+                                    <div class="number">03.</div>
+                                    <div class="help-title">Широкий выбор туров</div>
+                                </div>
+                                <div class="text-help">
+                                    В нашем ассортименте — разнообразие направлений и типов туров. 
+                                    Вы всегда найдете идеальный вариант для себя.
+                                </div>
+                                <div class="img-help"><img src="галочка.png"style="height: 20px; width: 20px" class="img-responsive" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-xs-12 col-help">
+                        <div class="element-help">
+                            <div class="help-wrapper">
+                                <div class="help-header">
+                                    <div class="number">04.</div>
+                                    <div class="help-title">Конкурентоспособные цены</div>
+                                </div>
+                                <div class="text-help">
+                                    Мы предлагаем конкурентоспособные цены без скрытых доплат,
+                                     а также регулярные скидки и акции, что позволяет выбрать качественные туры по выгодным условиям.
+                                </div>
+                                <div class="img-help"><img src="галочка.png" style="height: 20px; width: 20px" class="img-responsive" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-xs-12 col-help">
+                        <div class="element-help">
+                            <div class="help-wrapper">
+                                <div class="help-header">
+                                    <div class="number">05.</div>
+                                    <div class="help-title">Поддержка 24/7</div>
+                                </div>
+                                <div class="text-help">
+                                    Мы гарантируем круглосуточную поддержку клиентов на протяжении всей поездки.
+                                </div>
+                                <div class="img-help"><img src="галочка.png" style="height: 20px; width: 20px" class="img-responsive" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-xs-12 col-help">
+                        <div class="element-help">
+                            <div class="help-wrapper">
+                                <div class="help-header">
+                                    <div class="number">06.</div>
+                                    <div class="help-title">Гибкость и удобство бронирования</div>
+                                </div>
+                                <div class="text-help">
+                                    Мы предлагаем удобные и простые способы бронирования: онлайн, 
+                                    по телефону, через личного менеджера.
+                                </div>
+                                <div class="img-help"><img src="галочка.png" style="height: 20px; width: 20px" class="img-responsive" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-xs-12 col-help">
+                        <div class="element-help">
+                            <div class="help-wrapper">
+                                <div class="help-header">
+                                    <div class="number">07.</div>
+                                    <div class="help-title">Опыт и профессионализм</div>
+                                </div>
+                                <div class="text-help">
+                                    Наши сотрудники — это опытные специалисты, которые знают все тонкости туристической отрасли.
+                                </div>
+                                <div class="img-help"><img src="галочка.png"  style="height: 20px; width: 20px" class="img-responsive" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-3 col-xs-12 col-help">
+                        <div class="element-help">
+                            <div class="help-wrapper">
+                                <div class="help-header">
+                                    <div class="number">08.</div>
+                                    <div class="help-title">Безопасность и комфорт</div>
+                                </div>
+                                <div class="text-help">
+                                    Мы заботимся о безопасности и комфорте наших клиентов на каждом этапе путешествия.
+                                </div>
+                                <div class="img-help"><img src="галочка.png" style="height: 20px; width: 20px" class="img-responsive" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="expertise mx-0">
+            <div class="wrapper-expertise ">
+                <div class="empty-div">
+                </div>
+                <div class="divlaptop d-flex">
+                    <div class="div1-expertise ">
+                        <img style="width: 100%;" src="img/laptop.png" alt="Error">
+                    </div>
+                    <div class="div2-expertise">
+                        <div class="d-flex flex-column" style="margin-left: 100px">
+                            <div style="text-align: left">
+                                <h1 style="margin-bottom: 50px; color: white; width: 40%;">
+                                    <strong>Гарантия спокойствия и качества!</strong></h1>
+                            </div>
+                            <div id="2div" class="d-flex flex-row">
+                                <div class="d-flex">
+                                    <div style="height: 100px; width: 3px; background-color: red;">
+                                    </div>
+                                    <div style="width: 300px">
+                                        <h6 style="margin-left: 20px; height: 100%; width: 80%; color: white;">
+                                            Мы предлагаем полную гарантию возврата средств в случае непредвиденных 
+                                            обстоятельств или отмены тура.</h6>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <div style="height: 100px; width: 3px; background-color: red;">
+                                    </div>
+                                    <div style="width: 300px">
+                                        <h6 style="margin-left: 20px; height: 100%; width: 80%; color: white;">
+                                            Мы тщательно проверяем качество всех услуг, которые предоставляем, 
+                                            начиная от выбора партнеров и заканчивая пост-поездочной поддержкой. </h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="tariff" class="tariff_block">
+            <div class="container">
+                <h2 class="tariff_header pt-5">Тарифы</h2>
+                <div class="tariff_panels d-flex flex-wrap my-3">
+                    <div class="tariff_wrapper col-xs-6 col-sm-6 col-md-4 my-xs-5">
+                        <div class="tariff_panel">
+                            <div class="tariff_content">
+                                <h3 class="tariff_content_header">Стандартный тариф (Базовый)</h3>
+                                <ul>
+                                    <div>
+                                        <li>Подбор тура: Бесплатная консультация и помощь в подборе тура на основе пожеланий клиента.</li>
+                                    </div>
+                                    <div>
+                                        <li>Групповые туры: Доступ к самым популярным группам и стандартным маршрутам.</li>
+                                    </div>
+                                    <div>
+                                        <li>Безопасность: Гарантированное страхование путешественников на время поездки.</li>
+                                    </div>
+                                    <div>
+                                        <li>Туристическая документация: Помощь в подготовке стандартных документов для путешествия.</li>
+                                    </div>
+                                </ul>
+                                <button class="btn btn_form mt-3 mb-1" name="btn_form" type="button">Свяжитесь с
+                                    нами</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tariff_wrapper col-xs-6 col-sm-6 col-md-4">
+                        <div class="tariff_panel">
+                            <div class="tariff_content">
+                                <h3 class="tariff_content_header">Премиум тариф (Средний)</h3>
+                                <ul>
+                                    <div>
+                                        <li>Индивидуальный подбор тура: Личное сопровождение менеджера для выбора тура с учетом всех предпочтений.</li>
+                                    </div>
+                                    <div>
+                                        <li>Эксклюзивные маршруты: Доступ к уникальным маршрутам и турам,
+                                             которые не доступны в стандартных предложениях.</li>
+                                    </div>
+                                    <div>
+                                        <li>Дополнительные услуги: Скидки на экскурсии, дополнительные опции
+                                             (спа, экскурсионные программы, аренда автомобилей).</li>
+                                    </div>
+                                    <div>
+                                        <li>Полное сопровождение: Помощь в оформлении виз, трансфер и организация встреч в аэропорту.</li>
+                                    </div>
+                                </ul>
+                                <button class="btn btn_form mt-3 mb-1" name="btn_form" type="button">Свяжитесь с
+                                    нами</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tariff_wrapper col-xs-6 col-sm-6 col-md-4">
+                        <div class="tariff_panel ">
+                            <div class="tariff_content">
+                                <h3 class="tariff_content_header">Люкс тариф (VIP)</h3>
+                                <ul>
+                                    <div>
+                                        <li>Персональный консультант: Индивидуальный менеджер, который будет
+                                             сопровождать клиента на всех этапах — от планирования до возвращения.</li>
+                                    </div>
+                                    <div>
+                                        <li>Индивидуальные туры: Организация туров по личному запросу, включая VIP-услуги и 
+                                            уникальные маршруты (например, частные экскурсии, закрытые мероприятия).</li>
+                                    </div>
+                                    <div>
+                                        <li>Доступ к премиум-услугам: Специальные предложения от лучших отелей, ресторанов и развлечений,
+                                             а также эксклюзивные бонусы от партнеров.</li>
+                                    </div>
+                                    <div>
+                                        <li>Безопасность на высшем уровне: Страхование, 
+                                            медицинская помощь и полный контроль за безопасностью во время путешествия.</li>
+                                    </div>
+                                </ul>
+                                <button class="btn btn_form mt-3 mb-1" name="btn_form" type="button">Свяжитесь с
+                                    нами</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tariff_dop m-3 d-flex flex-column justify-content-center align-items-center">
+                    <p class="m-0">Вам не подходят наши тарифы? Оставте заявку и мы</p>
+                    <p class="m-0">предложим вам индивидуальные условия!</p>
+                    <a href="#form" class="m-2">ПОЛУЧИТЬ ИНДИВИДУАЛЬНЫЙ ТАРИФ</a>
+                </div>
+            </div>
+        </div>
+
+       
+        <div class="team_block container">
+            <h2 class="team_header py-5">Команда</h2>
+            <div class="team_panels d-flex flex-wrap">
+                <div class="team_panel col-xs-6 col-sm-6 col-md-4">
+                    <img class="team_photo" src="img/команда/garkusha.jpg" alt="photo1">
+                    <h5>Гаркуша Олег Васильевич </h5>
+                    <div>Главный путешественник компании</div>
+                </div>
+                <div class="team_panel col-xs-6 col-sm-6 col-md-4">
+                    <img class="team_photo" src="img/команда/гризун.jpg" alt="photo1">
+                    <h5>Гризун Татьяна </h5>
+                    <div>Менеджер по подбору туров</div>
+                </div>
+                <div class="team_panel col-xs-6 col-sm-6 col-md-4">
+                    <img class="team_photo" src="img/команда/азарян.jpg" alt="photo2">
+                    <h5>Азарян Арутюн</h5>
+                    <div>Менеджер по работе с клиентами</div>
+                </div>
+                
+
+            </div>
+            
+        </div>
+
+>
+
+        <div class="partners_block my-5">
+            <h2 class="partners-title">С нами работают</h2>
+            <p class="partners-description mb-3">Десятки компаний доверяют нам самые лучшие предложения
+                , что у них есть. <br> Мы делаем всё, чтобы наше сотрудничество было долгим.</p>
+            <div class="part-slider partners-list-slider-1">
+                <div class="partner-slide">
+                    <img src="img/сотрудничество/1.jpg" alt="partner-logo-1" class="partner-logo-img">
+                </div>
+                <div class="partner-slide">
+                    <img src="img/сотрудничество/8.webp" alt="partner-logo-2" class="partner-logo-img">
+                </div>
+                <div class="partner-slide">
+                    <img src="img/сотрудничество/12.webp" alt="partner-logo-6" class="partner-logo-img">
+                </div>
+                <div class="partner-slide">
+                    <img src="img/сотрудничество/2.jpg" alt="partner-logo-2" class="partner-logo-img">
+                </div>
+                <div class="partner-slide">
+                    <img src="img/сотрудничество/3.jfif" alt="partner-logo-3" class="partner-logo-img">
+                </div>
+                <div class="partner-slide">
+                    <img src="img/сотрудничество/4.jfif" alt="partner-logo-4" class="partner-logo-img">
+                </div>
+                <div class="partner-slide">
+                    <img src="img/сотрудничество/5.webp" alt="partner-logo-5" class="partner-logo-img">
+                </div>
+                <div class="partner-slide">
+                    <img src="img/сотрудничество/6.webp" alt="partner-logo-6" class="partner-logo-img">
+                </div>
+            </div>
+            <div class="part-slider partners-list-slider-2">
+                <div class="partner-slide">
+                    <img src="img/сотрудничество/7.jpg" alt="partner-logo-1" class="partner-logo-img">
+                </div>
+                <div class="partner-slide">
+                    <img src="img/сотрудничество/3.jfif" alt="partner-logo-3" class="partner-logo-img">
+                </div>
+                <div class="partner-slide">
+                    <img src="img/сотрудничество/8.webp" alt="partner-logo-2" class="partner-logo-img">
+                </div>
+                <div class="partner-slide">
+                    <img src="img/сотрудничество/3.jfif" alt="partner-logo-3" class="partner-logo-img">
+                </div>
+                <div class="partner-slide">
+                    <img src="img/сотрудничество/10.jpg" alt="partner-logo-4" class="partner-logo-img">
+                </div>
+                <div class="partner-slide">
+                    <img src="img/сотрудничество/4.jfif" alt="partner-logo-4" class="partner-logo-img">
+                </div>
+                <div class="partner-slide">
+                    <img src="img/сотрудничество/11.webp" alt="partner-logo-5" class="partner-logo-img">
+                </div>
+                <div class="partner-slide">
+                    <img src="img/сотрудничество/12.webp" alt="partner-logo-6" class="partner-logo-img">
+                </div>
+            </div>
+        </div>
+
+        <div class="FAQ_block container py-5">
+            <div class="FAQ_header">
+                <h1>Часто задаваемые вопросы</h1>
+            </div>
+            <div class="FAQ_body accordion">
+                <div class="FAQ_elem">
+                    <div class="FAQ_elem_wrapper p-2">
+                        <div class="FAQ_question">
+                            <h3>
+                                <p>1.</p>Какие документы необходимы для поездки за границу?
+                            </h3>
+                        </div>
+                        <div class="FAQ_answer">
+                            Для поездки за границу вам потребуется заграничный паспорт, виза (если страна назначения требует визу), авиабилеты и страховка.
+                             Мы поможем вам подготовить все документы и проконсультируем по визовым вопросам.
+                        </div>
+                    </div>
+                </div>
+                <div class="FAQ_elem">
+                    <div class="FAQ_elem_wrapper p-2">
+                        <div class="FAQ_question">
+                            <h3>
+                                <p>2.</p>Как выбрать подходящий тур для меня?
+                            </h3>
+                        </div>
+                        <div class="FAQ_answer">
+                            Мы предлагаем индивидуальный подход к каждому клиенту. Вы можете рассказать нам о своих предпочтениях: тип отдыха (пляжный, экскурсионный, активный), бюджет и даты поездки. 
+                            Наши менеджеры помогут подобрать тур, который максимально соответствует вашим требованиям.
+                        </div>
+                    </div>
+                </div>
+                <div class="FAQ_elem">
+                    <div class="FAQ_elem_wrapper p-2">
+                        <div class="FAQ_question">
+                            <h3>
+                                <p>3.</p>Что делать, если мой тур отменен или перенесен?
+                            </h3>
+                        </div>
+                        <div class="FAQ_answer">
+                            В случае отмены или переноса тура мы всегда обеспечиваем компенсацию или замену тура. Мы предоставляем полную информацию 
+                            о процессе возврата средств или переноса поездки и будем с вами на связи на каждом этапе.
+                        </div>
+                    </div>
+                </div>
+                <div class="FAQ_elem">
+                    <div class="FAQ_elem_wrapper p-2">
+                        <div class="FAQ_question">
+                            <h3>
+                                <p>4.</p>Как узнать, что тур действительно безопасен?
+                            </h3>
+                        </div>
+                        <div class="FAQ_answer">
+                            Мы работаем только с проверенными партнерами, отелями и перевозчиками, которые соблюдают международные стандарты безопасности. Кроме того, все наши туры включают страховку, 
+                            которая обеспечивает вашу безопасность в случае непредвиденных ситуаций.
+                        </div>
+                    </div>
+                </div>
+                <div class="FAQ_elem">
+                    <div class="FAQ_elem_wrapper p-2">
+                        <div class="FAQ_question">
+                            <h3>
+                                <p>5.</p>Можно ли изменить дату или условия тура после бронирования?
+                            </h3>
+                        </div>
+                        <div class="FAQ_answer">
+                            В большинстве случаев мы можем помочь с изменением дат или условий тура, но важно помнить, что это зависит от условий конкретного туроператора. Мы всегда стараемся учесть
+                             ваши изменения, но рекомендуем сразу сообщать нам о любых коррективах для своевременного внесения изменений.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footer_block container  my-5">
+            <div class="all_footer d-flex flex-wrap my-4">
+                <div class="footer_info col-md-6 col-xs-12 col-sm-6 p-0 my-3">
+                    <div class="footer_wrapper mr-0 mr-md-5">
+                        <div class="support_text mb-3 ">
+                            Возникло желание отправится в путешествие
+                        </div>
+                        <div class="support_text2 pb-2 pb-md-5">
+                            или остались вопросы?  Просто
+                            свяжитесь с нами, и наш менеджер поможет вам!
+                        </div>
+                        <div class="contacts pt-2 pt-md-5">
+                            <a href="tel:">+7(918)378-69-72**</a> <br>
+                            <a href="mailto:">tyr.ag@mail.ru</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer_form col-md-6 col-xs-12 col-sm-6 p-0 my-3">
+                    <div class="footer_wrapper ml-0 ml-md-5">
+                        <form id="popupForm" class="footer_form d-flex flex-column align-items-stretch"
+                            accept-charset="UTF-8">
+                            <label>
+                                <input class="form_elem form_name" id="formName" name="field_name"
+                                    placeholder="Ваше имя" required>
+                            </label>
+                            <label>
+                                <input class="form_elem form_number" id="formNumber" name="field_number"
+                                    placeholder="Ваш номер" required>
+                            </label>
+                            <label>
+                                <input class="form_elem form_email" id="formEmail" name="field_email" type="email"
+                                    placeholder="Ваш email" required>
+                            </label>
+                            <label>
+                                <textarea class="form_elem form_message" id="formMessage" name="field_review"
+                                    placeholder="Ваш коментарий" rows="3"></textarea>
+                            </label>
+                            <label>
+                                <input class="form_check" id="formCheck" name="field_check" type="checkbox">
+                                Отправляя заявку, я
+                                соглашаюсь на <a href="/privacy-policy">обработку моих персональных данных</a>
+                            </label>
+                            <input class="btn" type="submit" value="Отправить">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="underline">
+            <div class="container">
+                <div class="lower_part">
+                    <p> Компания &copy; Travel  <br> Спасибо, что посетили наш сайт.</p>
+                </div>
+            </div>
+        </div>
+        <img class="footer_paw paw1" src="img/right_paw.png" alt="paw" />
+        <img class="footer_paw paw2" src="img/right_paw.png" alt="paw" />
+    </footer>
+
+    <div id="popup" class="popup">
+        <div id="popupBody" class="popupBody">
+            <div class="popupContent">
+                <button class="popupClose mt-3 ml-3 mb-2" id="popupClose" type="button">✖</button>
+                <form id="popupForm1" class="popupForm d-flex flex-column align-items-stretch" accept-charset="UTF-8">
+                    <label class="px-3">
+                        <input class="form_elem form_name" id="formName1" name="field_name" placeholder="Ваше имя"
+                            required>
+                    </label>
+                    <label class="px-3">
+                        <input class="form_elem form_number" id="formNumber1" name="field_number"
+                            placeholder="Ваш номер" required>
+                    </label>
+                    <label class="px-3">
+                        <input class="form_elem form_email" id="formEmail1" name="field_email" type="email"
+                            placeholder="Ваш email" required>
+                    </label>
+                    <label class="px-3">
+                        <textarea class="form_elem form_message" id="formMessage1" name="field_review"
+                            placeholder="Ваш коментарий" rows="3"></textarea>
+                    </label>
+                    <label class="mx-3">
+                        <input class="form_check" id="formCheck1" name="field_check" type="checkbox">
+                        Отправляя заявку, я
+                        соглашаюсь на <a href="/privacy-p5olicy">обработку моих персональных данных</a>
+                    </label>
+                    <input class="btn mx-3 mb-3" type="submit" value="Отправить">
+                    <div id="formAnswer" class="px-3 pb-3"></div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
